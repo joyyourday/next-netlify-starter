@@ -6,6 +6,7 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <>
+   <div class="bg-[#a0aec0]">
       <footer className="text-gray-600 body-font">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -17,70 +18,72 @@ export default function Footer() {
     </div>
     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font  text-gray-900 tracking-widest text-sm mb-3 font-bold md:text-sm">HOLLYWOOD MOVIES</h2>
+  
+        <h2 className="title-font text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">HOLLYWOOD MOVIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">ACTION</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">ACTION</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">DRAMA</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">DRAMA</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">THRILLER</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">THRILLER</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">ROMANCE</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">ROMANCE</a>
           </li>
         </nav>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font  text-gray-900 tracking-widest text-sm mb-3 font-bold md:text-sm">BOLLYWOOD MOVIES</h2>
+    
+        <h2 className="title-font text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">BOLLYWOOD MOVIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">ACTION </a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">ACTION </a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">DRAMA</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">DRAMA</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">THRILLER</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">THRILLER</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">ROMANCE</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">ROMANCE</a>
           </li>
         </nav>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font  text-gray-900 tracking-widest text-sm mb-3 font-bold md:text-sm">ADULT MOVIES</h2>
+        <h2 className="title-font  text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">ADULT MOVIES</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-600 hover:text-gray-800">GENERAL</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">GENERAL</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">HOT +18</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">HOT +18</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">PURE ADULT</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">PURE ADULT</a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800">EROTICA</a>
+            <a className="text-gray-600 font-bold hover:text-blue-800">EROTICA</a>
           </li>
         </nav>
       </div>
       <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-        <h2 className="title-font  text-gray-900 tracking-widest text-sm mb-3 font-bold md:text-sm">ABOUT US</h2>
+        <h2 className="title-font  text-blue-600 tracking-widest text-sm mb-3 font-bold md:text-sm">ABOUT US</h2>
         <nav className="list-none mb-10">
           <li>
-          <a href="contact" className="text-gray-600 hover:text-gray-800">Contact</a>
+          <a href="../../../intro/contact" className="text-gray-600 font-bold hover:text-blue-800">Contact</a>
           </li>
           <li>
-          <a href="privacy" className="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+          <a href="../../../intro/privacy" className="text-gray-600 font-bold hover:text-blue-800">Privacy Policy</a>
           </li>
           <li>
-          <a href="tearms" className="text-gray-600 hover:text-gray-800">Tearm of Use</a>
+          <a href="../../../intro/tearms" className="text-gray-600 font-bold hover:text-blue-800">Tearm of Use</a>
           </li>
           <li>
-          <a href="dmca" className="text-gray-600 hover:text-gray-800">D.M.C.A</a>
+          <a href="../../../intro/dmca" className="text-gray-600 font-bold hover:text-blue-800">D.M.C.A</a>
           </li>
         </nav>
       </div>
@@ -95,6 +98,7 @@ export default function Footer() {
     </div>
   </div>
 </footer>
+</div>
     </>
   )
 }
